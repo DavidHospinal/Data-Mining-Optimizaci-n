@@ -21,11 +21,17 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
-        # Elimina la línea cache: 'npm' si está presente
+        # Sin configuración de caché
+    
+    - name: Create empty package-lock.json if it doesn't exist
+      run: |
+        if [ ! -f package-lock.json ]; then
+          echo "{}" > package-lock.json
+        fi
     
     - name: Install Dependencies 📦
-      run: npm install
-      # No uses 'npm ci' que requiere package-lock.json
+      run: |
+        npm install --no-package-lock
     
     - name: Build 🏗️
       run: CI=false npm run build
