@@ -46,8 +46,10 @@
 
 <h2>🔗 Recursos Adicionales</h2>
 <p style="font-size:16px; text-align:justify;">
-<strong>Repositorio Completo:</strong> [Enlace al Repositorio GitHub]<br>
-<strong>Documentación Técnica:</strong> [Enlace a Documentación Detallada]
+    
+### Jupyter Notebooks en R Público (Ejecutar Aquí):
+
+- Desarrollo [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gesis.mybinder.org/user/davidhospinal-d-ng-optimization-wzyzukss/lab/tree/Soluci%C3%B3n_Actividad_IV_Optimizaci%C3%B3n_David_Hospinal.ipynb)
 </p>
 </body>
 </html>
