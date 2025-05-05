@@ -1,0 +1,7 @@
+{
+  homepage httpsDavidHospinal.github.ioData-Mining-Optimization,
+  scripts {
+    predeploy npm run build,
+    deploy gh-pages -d build
+  }
+}
