@@ -12,6 +12,22 @@
 <strong>Este proyecto implementa un algoritmo genético en R para optimizar la asignación de fondos municipales a proyectos de emprendimiento local. El objetivo es maximizar el valor total de proyectos seleccionados dentro de un presupuesto limitado, utilizando técnicas avanzadas de optimización combinatoria.</strong>
 </p>
 
+<h2>📱 Aplicación Interactiva en React</h2>
+    <p>
+        <a href="https://davidhospinal.github.io/Data-Mining-Optimization/">Ver Demo en Vivo</a>
+    </p>
+    <p>
+        Esta implementación incluye una interfaz de usuario interactiva desarrollada en React que permite visualizar y explorar los resultados 
+        del algoritmo genético de forma dinámica.
+    </p>
+    <p><strong>Dependencias principales:</strong></p>
+    <ul>
+        <li>React 18.2.0</li>
+        <li>Recharts 2.10.3</li>
+        <li>Lucide React 0.294.0</li>
+        <li>Tailwind CSS 3.3.5</li>
+    </ul>
+
 <h2>🔍 Exploraciones Realizadas</h2>
 <p style="font-size:16px; text-align:justify;">
 ✅ Optimización de asignación de recursos municipales<br>
