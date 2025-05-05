@@ -14,8 +14,6 @@
 
 <h2>📱 Aplicación Interactiva en React</h2>
 
-![Animation02](https://github.com/user-attachments/assets/dba8483e-fa0d-424a-a5fc-92740244a95e)
-
     <p>
         <a href="https://davidhospinal.github.io/Data-Mining-Optimization/">Ver Demo en Vivo</a>
     </p>
