@@ -5,7 +5,6 @@ on:
   pull_request:
     branches: [ main ]
 
-# Añadimos permisos explícitos
 permissions:
   contents: write
   pages: write
@@ -22,12 +21,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
+        # Elimina la línea cache: 'npm' si está presente
     
     - name: Install Dependencies 📦
       run: npm install
+      # No uses 'npm ci' que requiere package-lock.json
     
     - name: Build 🏗️
-      # Configurar CI=false para ignorar las advertencias durante la compilación
       run: CI=false npm run build
     
     - name: Deploy to GitHub Pages 🚀
