@@ -1,11 +1,9 @@
 name: Deploy React App to GitHub Pages
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,10 +16,12 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
-        cache: 'npm'
+        # Eliminamos la línea de cache para evitar el error
+        # cache: 'npm'
     
     - name: Install Dependencies 📦
-      run: npm ci
+      # Cambiamos npm ci por npm install para no requerir package-lock.json
+      run: npm install
     
     - name: Build 🏗️
       run: npm run build
