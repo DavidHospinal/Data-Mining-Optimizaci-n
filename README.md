@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Optimización de Recursos Municipales con Algoritmo Genético</title>
+  
 </head>
 <body>
 <h1 align="center">🧩 Optimización de Recursos Municipales con Algoritmo Genético 💡</h1>
