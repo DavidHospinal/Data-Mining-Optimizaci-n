@@ -1,29 +1,53 @@
-🧩 Optimización de Recursos Municipales con Algoritmo Genético 💡
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Optimización de Recursos Municipales con Algoritmo Genético</title>
+</head>
+<body>
+<h1 align="center">🧩 Optimización de Recursos Municipales con Algoritmo Genético 💡</h1>
 
-📋 Resumen del Proyecto
-Este proyecto implementa un algoritmo genético en R para optimizar la asignación de fondos municipales a proyectos de emprendimiento local. El objetivo es maximizar el valor total de proyectos seleccionados dentro de un presupuesto limitado.
+<h2>📋 Resumen del Proyecto</h2>
+<p style="font-size:16px; text-align:justify;">
+<strong>Este proyecto implementa un algoritmo genético en R para optimizar la asignación de fondos municipales a proyectos de emprendimiento local. El objetivo es maximizar el valor total de proyectos seleccionados dentro de un presupuesto limitado, utilizando técnicas avanzadas de optimización combinatoria.</strong>
+</p>
 
-
-🔍 Exploraciones Realizadas
-✅ Optimización de asignación de recursos
-🔢 Evaluación de 20 proyectos de emprendimiento
-💰 Maximización del valor total con restricción presupuestaria
+<h2>🔍 Exploraciones Realizadas</h2>
+<p style="font-size:16px; text-align:justify;">
+✅ Optimización de asignación de recursos municipales<br>
+🔢 Evaluación de 20 proyectos de emprendimiento<br>
+💰 Maximización del valor total con restricción presupuestaria<br>
 🧮 Análisis de múltiples configuraciones de parámetros genéticos
-🔑 Hallazgos Clave
-🏆 Mejor solución: 9 proyectos seleccionados
-💸 Valor total optimizado: 189 unidades
-📊 Utilización de 38/40 unidades de presupuesto
+</p>
+
+<h2>🔑 Hallazgos Clave</h2>
+<p style="font-size:16px; text-align:justify;">
+🏆 Mejor solución: 9 proyectos seleccionados<br>
+💸 Valor total optimizado: 189 unidades<br>
+📊 Utilización de 38/40 unidades de presupuesto<br>
 🚀 Optimización mediante técnicas de algoritmos genéticos
-🛠️ Técnicas Utilizadas
+</p>
 
-🧬 Algoritmo Genético
-📈 Optimización combinatoria
-🔬 Análisis de parámetros (elitismo, iteraciones, población)
-💻 Implementación en R
-📉 Librería GenAlgo
+<h2>🛠️ Técnicas Utilizadas</h2>
+<p style="font-size:16px; text-align:justify;"><strong>
+- 🧬 Algoritmo Genético<br>
+- 📈 Optimización combinatoria<br>
+- 🔬 Análisis de parámetros (elitismo, iteraciones, población)<br>
+- 💻 Implementación en R<br>
+- 📉 Librería GenAlgo
+</strong></p>
 
-📚 Herramientas
+<h2>📚 Herramientas y Tecnologías</h2>
+<p style="font-size:16px; text-align:justify;">
+<strong>Lenguaje:</strong> R<br>
+<strong>Bibliotecas:</strong> GenAlgo, ggplot2<br>
+<strong>Técnicas:</strong> Optimización por Algoritmo Genético
+</p>
 
-Lenguaje: R
-Bibliotecas: GenAlgo, ggplot2
-Técnicas: Optimización por Algoritmo Genético
+<h2>🔗 Recursos Adicionales</h2>
+<p style="font-size:16px; text-align:justify;">
+<strong>Repositorio Completo:</strong> [Enlace al Repositorio GitHub]<br>
+<strong>Documentación Técnica:</strong> [Enlace a Documentación Detallada]
+</p>
+</body>
+</html>
