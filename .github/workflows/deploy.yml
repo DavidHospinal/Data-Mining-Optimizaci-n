@@ -1,43 +1,25 @@
-name: Deploy React App to GitHub Pages
+name: Simple Deploy to GitHub Pages
 on:
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
 permissions:
   contents: write
-  pages: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
-    
-    - name: Use Node.js 🔧
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18.x'
-        # Sin configuración de caché
-    
-    - name: Create empty package-lock.json if it doesn't exist
-      run: |
-        if [ ! -f package-lock.json ]; then
-          echo "{}" > package-lock.json
-        fi
-    
-    - name: Install Dependencies 📦
-      run: |
-        npm install --no-package-lock
-    
-    - name: Build 🏗️
-      run: CI=false npm run build
-    
-    - name: Deploy to GitHub Pages 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: build
-        branch: gh-pages
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧
+        run: |
+          npm install
+          CI=false npm run build
+          
+      - name: Deploy 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
