@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Data-Mining-Optimization/static/css/main.3bab0e24.css",
+    "main.css": "/Data-Mining-Optimization/static/css/main.c877ee17.css",
     "main.js": "/Data-Mining-Optimization/static/js/main.779b5fac.js",
     "index.html": "/Data-Mining-Optimization/index.html",
-    "main.3bab0e24.css.map": "/Data-Mining-Optimization/static/css/main.3bab0e24.css.map",
+    "main.c877ee17.css.map": "/Data-Mining-Optimization/static/css/main.c877ee17.css.map",
     "main.779b5fac.js.map": "/Data-Mining-Optimization/static/js/main.779b5fac.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bab0e24.css",
+    "static/css/main.c877ee17.css",
     "static/js/main.779b5fac.js"
   ]
 }
