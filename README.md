@@ -47,9 +47,8 @@
 <h2>🔗 Recursos Adicionales</h2>
 <p style="font-size:16px; text-align:justify;">
     
-### Jupyter Notebooks en R Público (Ejecutar Aquí):
-
-- Desarrollo [![Binder](https://mybinder.org/v2/gh/DavidHospinal/Data-Mining-Optimization/f49b1f17b7b01c751460ba0759b372ba88ff53d6?urlpath=lab%2Ftree%2FSoluci%C3%B3n_Actividad_IV_Optimizaci%C3%B3n_David_Hospinal.ipynb)]
+### 👇 Jupyter Notebooks en R Público (Ejecutar Aquí):
+- Desarrollo [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DavidHospinal/Data-Mining-Optimization/f49b1f17b7b01c751460ba0759b372ba88ff53d6?urlpath=lab%2Ftree%2FSoluci%C3%B3n_Actividad_IV_Optimizaci%C3%B3n_David_Hospinal.ipynb)
 </p>
 </body>
 </html>
