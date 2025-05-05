@@ -23,7 +23,7 @@
 <h2>🔑 Hallazgos Clave</h2>
 <p style="font-size:16px; text-align:justify;">
 🏆 Mejor solución: 9 proyectos seleccionados<br>
-💸 Valor total optimizado: 189 unidades<br>
+💸 Valor total optimizado: 202 unidades<br>
 📊 Utilización de 38/40 unidades de presupuesto<br>
 🚀 Optimización mediante técnicas de algoritmos genéticos
 </p>
