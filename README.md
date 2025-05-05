@@ -7,7 +7,8 @@
 <body>
 <h1 align="center">🧩 Optimización de Recursos Municipales con Algoritmo Genético 💡</h1>
 
-https://github.com/DavidHospinal/Data-Mining-Optimization/blob/main/Animation02.gif
+![Animation02](https://github.com/user-attachments/assets/406a5f87-5ce0-4f8f-a9bb-b47a6d0112bd)
+
 
 <h2>📋 Resumen del Proyecto</h2>
 <p style="font-size:16px; text-align:justify;">
