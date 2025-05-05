@@ -7,6 +7,8 @@
 <body>
 <h1 align="center">🧩 Optimización de Recursos Municipales con Algoritmo Genético 💡</h1>
 
+https://github.com/DavidHospinal/Data-Mining-Optimization/blob/main/Animation02.gif
+
 <h2>📋 Resumen del Proyecto</h2>
 <p style="font-size:16px; text-align:justify;">
 <strong>Este proyecto implementa un algoritmo genético en R para optimizar la asignación de fondos municipales a proyectos de emprendimiento local. El objetivo es maximizar el valor total de proyectos seleccionados dentro de un presupuesto limitado, utilizando técnicas avanzadas de optimización combinatoria.</strong>
